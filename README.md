@@ -18,8 +18,8 @@ The code performs the following steps:
    - A heatmap is generated to visualize the correlation between different features in the dataset.
 
 4. **Data Preprocessing**:
-   - The target variable `quality` is transformed into a binary classification problem where wines with a quality rating of 7 or higher are considered "Good Quality" (1), and others are "Bad Quality" (0).
-   - The dataset is split into training and testing sets using an 90-10 split.
+   - The target variable `quality` is transformed into a binary classification problem where wines with a quality rating of 8 are considered "Good Quality" (1), and others are "Bad Quality" (0).
+   - The dataset is split into training and testing sets using an 80-20 split.
 
 5. **Model Training**:
    - An XGBoost classifier is initialized and trained on the training data.
@@ -31,7 +31,7 @@ The code performs the following steps:
 
 ## Results
 
-- The model achieves a training accuracy of 100% and a testing accuracy of 90%, indicating a strong performance on the given dataset.
+- The model achieves a training accuracy of 100% and a testing accuracy of 97.8%, indicating a strong performance on the given dataset.
 
 ## Usage
 
